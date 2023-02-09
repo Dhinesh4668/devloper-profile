@@ -1,10 +1,18 @@
-
-
-
-
-.nav-main{
-    display: flex;
-    background-color: violet;
+.right {
     flex-direction: row;
+}
+.Nav-container{
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0.4;
+    
+}
+
+h3{
+    color: black;
+}
+h3 span {
+     color: #23545f;
 }
