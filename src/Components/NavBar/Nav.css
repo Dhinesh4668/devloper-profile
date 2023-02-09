@@ -1,0 +1,10 @@
+
+
+
+
+.nav-main{
+    display: flex;
+    background-color: violet;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
