@@ -38,7 +38,7 @@ const Skills = () => {
           <p>UI design figma</p>
             <LinearProgress variant='determinate' value={75} />
         </div>
-        <div className='process process1'>
+        <div className='process git '>
           <p>NextJS</p>
             <LinearProgress variant='determinate' value={40} />
         </div>

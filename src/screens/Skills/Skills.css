@@ -1,3 +1,8 @@
+.skills-conrainer{
+    margin-top: 20px;
+}
+
+
 .skills-title{
     justify-content: center;
     text-align: center;
@@ -42,7 +47,7 @@
 @media screen and (max-width: 700px) {
     .skills-conrainer{
         margin: auto;
-        
+        margin: 30em;
     }
     .process{
         width: auto;
