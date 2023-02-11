@@ -1,0 +1,55 @@
+.skills-title{
+    justify-content: center;
+    text-align: center;
+}
+.skills-title h1{
+    font-weight: 800;
+    
+}
+.skills-detials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.process{
+    margin: 5% 0;
+    padding: 10px;
+    background-color: var(--skills-process);
+    padding:20px 10px;
+    text-align: start;
+    border-radius: 10px;
+    position: relative;
+}
+
+.process .MuiLinearProgress-barColorPrimary{
+    background-color: var(--linear-process-color);
+}
+
+.process1 MuiLinearProgress-colorPrimary  {
+    background-color: var(--linear-process-secondary);
+}
+.skills-right{
+    width: 50%;
+    
+    
+}
+
+.skills-left img{
+    height: 500px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .skills-conrainer{
+        margin: auto;
+
+    }
+    .process{
+        width: auto;
+        position: relative;
+    }
+    .process p{
+        font-size: xx-small;
+        font-weight: 600;
+    }
+}

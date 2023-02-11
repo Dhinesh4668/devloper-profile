@@ -3,6 +3,9 @@
 :root{
     --color-red: #123412;
     --para-light: gray;
-    --nav-span: #212735
+    --nav-span: #212735;
+    --skills-process: #E8E2E2;
+    --linear-process-color: #171717;
+    --linear-process-secondary: #41201a;
 }
 

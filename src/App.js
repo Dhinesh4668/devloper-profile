@@ -8,8 +8,8 @@ import './App.css'
 const App = () => {
   return <>
   <Home />
-  <Projects />
   <Skills />
+  <Projects />
   <About />
   </>
 }
