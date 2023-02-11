@@ -5,15 +5,18 @@
    text-align: center;
    /* background-color: red; */
    padding-top: 10px;
+   columns: 2;
 }
 .right-container img{
     height: 650px;
 }
-
+.left-container {
+    flex:  .3;
+    position: relative;
+}
 .left-container{
     justify-content: center;
     text-align: center;
-    border-radius: 10px;
 }
 .title-text h1{
     font-weight: 500;
@@ -24,7 +27,11 @@
     line-height: 0.8em;
     font-weight: 800;
 }
-
+Button{
+ position: relative !important;
+ align-items: center !important;
+ justify-content: start !important
+}
 
 .title-text h1 .span{
     color: var(--color-red);
@@ -32,21 +39,37 @@
 .contant p{
     text-align: start;
     color: var(--para-light);
+    text-align: justify;
+    padding-top: 10px;
+    font-size: small
 }
 
 
 @media screen and (max-width: 700px) {
- /* .home-contaoner{
-    display: flex;
-    flex-direction: column;
- } */
+ .home-contaoner{
+    margin: auto;
+ }
+ 
+ .left-container{
+    flex: .8;
+    font-size: x-small;
+    position: relative;
+ }
+
+
  .left-container h1{
     font-size: medium;
-    
+ }
+
+ .left-container p{
+    line-height: .9;
+    font-size: x-small;
+    text-align: justify;
  }
  .right-container img{
     padding-top: 15px;
     height: 390px;
  }
+ 
 }
 

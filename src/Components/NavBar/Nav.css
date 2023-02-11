@@ -55,6 +55,20 @@
     display: none;
 }
 
+
+.nav-property h6:after {
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+ .nav-property h6{
+    font-weight: 500;
+    font-size: medium;
+    
+ }
+
+
+
 @media screen and (max-width: 800px) {
     .nav-property{
         display: none;
@@ -73,5 +87,13 @@
     .mob-screen:hover{
         border-radius: 50px;
     }
-
+    .nav-icon h2{
+        font-size: 19px;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-devloper{
+        display: nonr;
+    }
+   
 }
