@@ -41,6 +41,9 @@
 
 .skills-left img{
     height: 500px;
+    align-items: center;
+    justify-content: center;
+    image-rendering: pixelated;
 }
 
 
