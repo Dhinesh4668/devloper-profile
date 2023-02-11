@@ -21,10 +21,11 @@
     text-align: start;
     font-weight: bolde;
     justify-content: start;
+    line-height: 0.8em;
+    font-weight: 800;
 }
-.btn-home{
-   position: ;
-}
+
+
 .title-text h1 .span{
     color: var(--color-red);
 }
@@ -38,9 +39,14 @@
  .home-contaoner{
     display: flex;
     flex-direction: column;
- }   
- .title-text h1{
+ }
+ .left-container h1{
     font-size: medium;
-} 
+    
+ }
+ .right-container img{
+    padding-top: 15px;
+    height: 400px;
+ }
 }
 
