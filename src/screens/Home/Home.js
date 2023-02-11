@@ -1,24 +1,26 @@
+
 import React from 'react'
-import './Home.css'
-import { Nav } from '../../Components/Index'
+import { Element } from 'react-scroll';
+import DevloperImage from '../../assets/'
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
-      <Nav />
-      <HomePage />
-    </div>
-  )
-}
-export default Home
-
-function HomePage() {
-  return (
-    <center>
-      <div>left image</div>
-      <div>right contant
-        <div>button</div>
+    <Element id='home' className='home-contaoner'>
+      <div className='left-container'>
+        <div className='title-text'>
+          <h1>Hai, devlopers i'm <span>Dhinesh kumar</span></h1>
+        </div>
+        <div className='contant'>
+          <p>some para </p>
+        </div>
+        
       </div>
-    </center>
+      <div className='right-container'>
+        <img src={DevloperImage} alt="avathorimage"  loading='lazy'/>
+      </div>
+    </Element>
   )
 }
+
+export default Home

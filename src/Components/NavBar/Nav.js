@@ -1,23 +1,30 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import './Nav.css'
-
-
+import "./Nav.css"
+import { Link } from 'react-scroll'
 const Nav = () => {
-  const fname = "Dhinesh"
-  const lname = "Kumar"
   return (
-    <div className='Nav-container bg-light-primary'>
-      <div className='left'>
-        <h3>{fname} <span>{lname}</span></h3>
+    <>
+    <div className='nav-container'>
+      <div className='nav-icon'>
+        <image className='nav-devloper' src="" alt=""/>
       </div>
-      <div className='right'>
-        <Link to="/">Home</Link>
-        <Link to="skills" >Skills</Link>
-        <Link to="projects">Project</Link>
-        <Link to="about">About</Link>
+      <div className='nav-property'>
+        <Link to='home' smooth={true} duration={600}>
+            <h6>Home</h6>
+        </Link>
+        <Link to="skills" smooth={true} duration={600}>
+          <h6>Skills</h6>
+        </Link>
+        <Link to="projects" smooth={true} duration={600}>
+          <h6>Projects</h6>
+        </Link>
+        <Link to="about" smooth={true} duration={600}>
+          <h6>About</h6>
+        </Link>
+        <Link to="" smooth={true} duration={600}></Link>
       </div>
     </div>
+    </>
   )
 }
 
