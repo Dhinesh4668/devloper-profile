@@ -18,7 +18,7 @@ const Home = () => {
           <p>some para </p>
         </div>
         <button onClick={ButtomClick}>resume</button>
-        <button onClick={ButtomClick}>contact</button>
+        <button onClick={ButtomClick} id="contact">contact</button>
       </div>
       <div className='right-container'>
         <img src={DevloperImage} alt="avathorimage"  loading='lazy'/>
