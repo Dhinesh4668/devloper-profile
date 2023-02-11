@@ -17,6 +17,7 @@
     width: 50px;
     height: 50px;
     margin-right: 10px;
+    align-items: center;
 }
 .nav-icon h2{
     font-weight: 600;
@@ -32,7 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex: 0.4;
+    flex: 0.6;
     
 
 }
@@ -41,12 +42,16 @@
     cursor: pointer;
 }
 
+.mob-screen{
+    display: none;
+}
 
 @media screen and (max-width: 700px) {
     .nav-property{
         display: none;
     }
-    .nav-contact{
-        color: red;
+    .mob-screen{
+        display: flex;
     }
+
 }

@@ -29,7 +29,11 @@ const Nav = () => {
           <h6>Contact</h6>
         </Link>
       </div>
-      
+      <div className='mob-screen'>
+        <Link to="contact" smooth={true} duration={900}>
+          <h6>Contact</h6>
+        </Link>
+      </div>
     </div>
     </>
   )
