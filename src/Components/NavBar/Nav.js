@@ -31,7 +31,7 @@ const Nav = () => {
       </div>
       <div className='mob-screen'>
         <Link to="contact" smooth={true} duration={900}>
-          <h6>Contact</h6>
+          <p className='text-nav'>Contact</p>
         </Link>
       </div>
     </div>

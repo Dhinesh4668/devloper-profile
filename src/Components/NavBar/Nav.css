@@ -46,12 +46,22 @@
     display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .nav-property{
         display: none;
     }
     .mob-screen{
         display: flex;
+        border: 1px solid black;
+        border-radius: 5px;
+        
+    }
+    .mob-screen .text-nav{
+        text-align: center;
+        font-weight: bold;
+    }
+    .mob-screen:hover{
+        border-radius: 50px;
     }
 
 }
