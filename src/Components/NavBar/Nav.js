@@ -6,7 +6,7 @@ import NavIcon from "../../assets/coffecup.png"
 
 const Nav = () => {
   return (
-    <>
+    <nav>
     <div className='nav-container container'>
       <div className='nav-icon'>
         <img className='nav-devloper' src={NavIcon} alt="CoffeCupIcon"/>
@@ -35,7 +35,7 @@ const Nav = () => {
         </Link>
       </div>
     </div>
-    </>
+    </nav>
   )
 }
 

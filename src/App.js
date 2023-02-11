@@ -7,11 +7,10 @@ import './App.css'
 
 const App = () => {
   return <>
-    <Home />
-    <Skills />
-    <Projects />
-    <About />
-   
+  <Home />
+  <Projects />
+  <Skills />
+  <About />
   </>
 }
 
