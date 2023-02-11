@@ -21,7 +21,6 @@ const Nav = () => {
         <Link to="about" smooth={true} duration={600}>
           <h6>About</h6>
         </Link>
-        <Link to="" smooth={true} duration={600}></Link>
       </div>
     </div>
     </>

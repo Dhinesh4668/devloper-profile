@@ -1,7 +1,7 @@
 import React from 'react'
 import { Home, Projects, Skills, About } from './screens/index'
-import {  Footer,} from './Components/Index'
 import './App.css'
+// import Nav from './Components/NavBar/Nav'
 // import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 
