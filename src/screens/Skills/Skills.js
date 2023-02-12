@@ -1,7 +1,7 @@
 import React from 'react'
 import Skill from '../../assets/study.png'
 import './Skills.css'
-import { LinearProgress, Button} from '@mui/material'
+import { LinearProgress} from '@mui/material'
 import { Element } from 'react-scroll'
 
 
@@ -24,7 +24,7 @@ const Skills = () => {
         </div>
         <div className='process'>
           <p>HTML and CSS</p>
-            <LinearProgress variant='determinate' value={70} />
+            <LinearProgress variant='determinate'  value={70} />
         </div>
         <div className='process'>
           <p>Javascript</p>
