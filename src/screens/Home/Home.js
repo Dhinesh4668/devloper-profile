@@ -2,17 +2,26 @@
 import React from 'react'
 import { Element } from 'react-scroll';
 import DevloperImage from '../../assets/2.png';
-import IconTitle from '../../assets/icon3.jpg'
+// import IconTitle from '../../assets/icon3.jpg'
 import Nav from '../../Components/NavBar/Nav';
 import './Home.css';
-import Button from '@mui/material/Button'
+// import Button from '@mui/material/Button'
+import {
+  GrLinkedin,
+  GrFacebook,
+  GrInstagram
+} from "react-icons/gr";
 
+import { FaWhatsappSquare} from 'react-icons/fa'
+import { TfiGithub} from "react-icons/tfi"
+import {FiDribbble} from "react-icons/fi"
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div>
       <Nav />
-      <Element id='home' className='home-contaoner' >
+      <Element id='home' className='home-contaoner pt-5' >
         <div className='left-container container'>
           <div className='title-text'>
             <h1 >Hai,</h1>
@@ -26,7 +35,7 @@ const Home = () => {
             <br /> Also worked on javascript and react.js (js library) languages. 
             </p>
           </div>
-          <Button>Resume</Button>
+          <SocialMediaIcons />
         </div>
         <div className='right-container'>
           <img src={DevloperImage} alt='image' />
@@ -37,3 +46,28 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+function SocialMediaIcons() {
+  return<div className='icons'>
+  <a href='https://www.linkedin.com/in/dhinesh-kumar-00aa8b1a5/?originalSubdomain=in' >
+    <GrLinkedin size={"30px"} />
+  </a>
+  <a>
+    <FaWhatsappSquare size={"36px"} />
+  </a>
+  <a href='https://www.instagram.com/__viram_/'>
+    <GrInstagram size={"30px"}/>
+  </a>
+  <a>
+    <GrFacebook size={"30px"}/>
+  </a>
+  <a href='https://github.com/Dhinesh4668'>
+    <TfiGithub size={"30px"}/>
+  </a>
+  <a href='https://dribbble.com/dhin_designer'>
+    <FiDribbble size={"30px"} />
+  </a>
+  </div>
+}

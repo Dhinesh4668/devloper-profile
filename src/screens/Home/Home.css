@@ -43,7 +43,19 @@ Button{
     padding-top: 10px;
     font-size: small
 }
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    color: black;
+}
 
+.icons a{
+    color: black;
+}
+.icons a:hover{
+    color: black;
+}
 
 @media screen and (max-width: 700px) {
  .home-contaoner{
