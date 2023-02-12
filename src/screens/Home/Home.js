@@ -6,16 +6,10 @@ import DevloperImage from '../../assets/2.png';
 import Nav from '../../Components/NavBar/Nav';
 import './Home.css';
 // import Button from '@mui/material/Button'
-import {
-  GrLinkedin,
-  GrFacebook,
-  GrInstagram
-} from "react-icons/gr";
-
+import {GrLinkedin,GrFacebook,GrInstagram} from "react-icons/gr";
 import { FaWhatsappSquare} from 'react-icons/fa'
 import { TfiGithub} from "react-icons/tfi"
 import {FiDribbble} from "react-icons/fi"
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
