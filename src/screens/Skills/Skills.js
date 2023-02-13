@@ -7,7 +7,7 @@ import { Element } from 'react-scroll'
 
 const Skills = () => {
   return (<Element id="skills">
-    <div className='skills-title'>
+    <div className='skills-title container'>
         <h1>My Skills</h1>
       </div>
     <div className='skills-container'>
