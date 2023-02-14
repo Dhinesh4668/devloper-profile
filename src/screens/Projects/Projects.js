@@ -7,7 +7,7 @@ import { Element } from 'react-scroll'
 const Projects = () => {
   return (
     <Element id="projects" className='project-container'>
-      <h1>Projects</h1>
+      <h1 className='card-title'>Projects</h1>
       <div className='card-items'>
       <CardFun />
       <CardFun />
@@ -22,7 +22,7 @@ export default Projects
 
 const CardFun = () => {
   return(
-  <Card sx={{maxWidth: 350}}>
+  <Card className='Card' sx={{maxWidth: 350}}>
 
     <CardMedia 
       component='img'

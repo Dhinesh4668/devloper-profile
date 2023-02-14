@@ -1,14 +1,28 @@
+
+
 .card-items{
     display: flex;
     flex-direction: row;
     flex: 0.3;
     justify-content: space-evenly;
 }
-
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:20px 20px ;
+    font-weight: 800;
+    margin:20px 20px;
+}
 
 @media  screen and (max-width: 700px) {
     .card-items{
         display: flex;
         flex-direction: column;
+       
+    }
+    .Card{
+        margin-bottom: 10px;
     }
 }
